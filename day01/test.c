@@ -32,7 +32,7 @@ void replaceSpace(char* str,int length)
 int main()
 {
     char str[] = {"We are students"};
-    int size = sizeof(str);
+    int size = 128;
     replaceSpace(str,size);
     printf("%s\n",str);
     return 0;

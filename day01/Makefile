@@ -1,5 +1,5 @@
 test:test.c
-	gcc $^ -o $@
+	gcc $^ -o $@ -g
 .PHONY:
 	clean
 clean:
